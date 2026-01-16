@@ -1,0 +1,74 @@
+[
+  {
+    "code_alpha2": "US",
+    "code_alpha3": "USA",
+    "name_en": "United States",
+    "name_zh": "美国"
+  },
+  {
+    "code_alpha2": "CN",
+    "code_alpha3": "CHN",
+    "name_en": "China",
+    "name_zh": "中国"
+  },
+  {
+    "code_alpha2": "GB",
+    "code_alpha3": "GBR",
+    "name_en": "United Kingdom",
+    "name_zh": "英国"
+  },
+  {
+    "code_alpha2": "CA",
+    "code_alpha3": "CAN",
+    "name_en": "Canada",
+    "name_zh": "加拿大"
+  },
+  {
+    "code_alpha2": "AU",
+    "code_alpha3": "AUS",
+    "name_en": "Australia",
+    "name_zh": "澳大利亚"
+  },
+  {
+    "code_alpha2": "SG",
+    "code_alpha3": "SGP",
+    "name_en": "Singapore",
+    "name_zh": "新加坡"
+  },
+  {
+    "code_alpha2": "CH",
+    "code_alpha3": "CHE",
+    "name_en": "Switzerland",
+    "name_zh": "瑞士"
+  },
+  {
+    "code_alpha2": "DE",
+    "code_alpha3": "DEU",
+    "name_en": "Germany",
+    "name_zh": "德国"
+  },
+  {
+    "code_alpha2": "FR",
+    "code_alpha3": "FRA",
+    "name_en": "France",
+    "name_zh": "法国"
+  },
+  {
+    "code_alpha2": "JP",
+    "code_alpha3": "JPN",
+    "name_en": "Japan",
+    "name_zh": "日本"
+  },
+  {
+    "code_alpha2": "KR",
+    "code_alpha3": "KOR",
+    "name_en": "South Korea",
+    "name_zh": "韩国"
+  },
+  {
+    "code_alpha2": "HK",
+    "code_alpha3": "HKG",
+    "name_en": "Hong Kong",
+    "name_zh": "香港"
+  }
+]

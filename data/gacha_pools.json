@@ -1,0 +1,102 @@
+[
+  {
+    "id": "genetics_pool",
+    "type": "GENETICS_POOL",
+    "name": "先天重置池",
+    "name_zh": "先天重置池",
+    "items": [
+      {
+        "item_id": "reset_nationality",
+        "probability": 0.01,
+        "rarity": "ssr"
+      },
+      {
+        "item_id": "reset_race",
+        "probability": 0.01,
+        "rarity": "ssr"
+      },
+      {
+        "item_id": "reset_mbti",
+        "probability": 0.03,
+        "rarity": "legendary"
+      },
+      {
+        "item_id": "iq_boost_20",
+        "probability": 0.05,
+        "rarity": "epic"
+      },
+      {
+        "item_id": "eq_boost_20",
+        "probability": 0.05,
+        "rarity": "epic"
+      },
+      {
+        "item_id": "iq_boost_10",
+        "probability": 0.15,
+        "rarity": "rare"
+      },
+      {
+        "item_id": "eq_boost_10",
+        "probability": 0.15,
+        "rarity": "rare"
+      },
+      {
+        "item_id": "coins_5000",
+        "probability": 0.25,
+        "rarity": "common"
+      },
+      {
+        "item_id": "gems_50",
+        "probability": 0.30,
+        "rarity": "common"
+      }
+    ],
+    "pity_count": 50,
+    "pity_guarantee_rarity": "epic"
+  },
+  {
+    "id": "boost_pool",
+    "type": "BOOST_POOL",
+    "name": "成长资源池",
+    "name_zh": "成长资源池",
+    "items": [
+      {
+        "item_id": "item_iq_3",
+        "probability": 0.05,
+        "rarity": "epic"
+      },
+      {
+        "item_id": "item_eq_2",
+        "probability": 0.10,
+        "rarity": "rare"
+      },
+      {
+        "item_id": "item_essay_2",
+        "probability": 0.10,
+        "rarity": "rare"
+      },
+      {
+        "item_id": "item_iq_2",
+        "probability": 0.20,
+        "rarity": "rare"
+      },
+      {
+        "item_id": "item_looks_2",
+        "probability": 0.15,
+        "rarity": "rare"
+      },
+      {
+        "item_id": "item_iq_1",
+        "probability": 0.20,
+        "rarity": "common"
+      },
+      {
+        "item_id": "item_eq_1",
+        "probability": 0.20,
+        "rarity": "common"
+      }
+    ],
+    "pity_count": 30,
+    "pity_guarantee_rarity": "rare"
+  }
+]

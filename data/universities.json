@@ -1,0 +1,389 @@
+[
+  {
+    "id": "mit",
+    "name": "MIT",
+    "name_zh": "麻省理工学院",
+    "group_tags": ["HYPSM", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 1,
+    "selectivity": 95,
+    "weights": {
+      "gpa_weight": 0.25,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.15,
+      "rec_weight": 0.10,
+      "interview_weight": 0.05,
+      "fit_weight": 0.05
+    },
+    "special_rules": {
+      "research_bonus": 0.20
+    }
+  },
+  {
+    "id": "imperial",
+    "name": "Imperial College London",
+    "name_zh": "帝国理工学院",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 2,
+    "selectivity": 90,
+    "weights": {
+      "gpa_weight": 0.30,
+      "tests_weight": 0.25,
+      "extracurricular_weight": 0.15,
+      "essays_weight": 0.10,
+      "rec_weight": 0.10,
+      "interview_weight": 0.05,
+      "fit_weight": 0.05
+    }
+  },
+  {
+    "id": "stanford",
+    "name": "Stanford",
+    "name_zh": "斯坦福大学",
+    "group_tags": ["HYPSM", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 3,
+    "selectivity": 95,
+    "weights": {
+      "gpa_weight": 0.20,
+      "tests_weight": 0.15,
+      "extracurricular_weight": 0.25,
+      "essays_weight": 0.20,
+      "rec_weight": 0.10,
+      "interview_weight": 0.05,
+      "fit_weight": 0.05
+    }
+  },
+  {
+    "id": "oxford",
+    "name": "Oxford",
+    "name_zh": "牛津大学",
+    "group_tags": ["牛剑", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 4,
+    "selectivity": 95,
+    "weights": {
+      "gpa_weight": 0.25,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.15,
+      "essays_weight": 0.15,
+      "rec_weight": 0.10,
+      "interview_weight": 0.10,
+      "fit_weight": 0.05
+    }
+  },
+  {
+    "id": "harvard",
+    "name": "Harvard",
+    "name_zh": "哈佛大学",
+    "group_tags": ["HYPSM", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 5,
+    "selectivity": 98,
+    "weights": {
+      "gpa_weight": 0.20,
+      "tests_weight": 0.15,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.20,
+      "rec_weight": 0.15,
+      "interview_weight": 0.05,
+      "fit_weight": 0.05
+    }
+  },
+  {
+    "id": "cambridge",
+    "name": "Cambridge",
+    "name_zh": "剑桥大学",
+    "group_tags": ["牛剑", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 6,
+    "selectivity": 95,
+    "weights": {
+      "gpa_weight": 0.25,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.15,
+      "essays_weight": 0.15,
+      "rec_weight": 0.10,
+      "interview_weight": 0.10,
+      "fit_weight": 0.05
+    }
+  },
+  {
+    "id": "eth",
+    "name": "ETH Zurich",
+    "name_zh": "苏黎世联邦理工学院",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 7,
+    "selectivity": 85,
+    "weights": {
+      "gpa_weight": 0.35,
+      "tests_weight": 0.25,
+      "extracurricular_weight": 0.15,
+      "essays_weight": 0.10,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    },
+    "special_rules": {
+      "international_tests_bonus": 0.20
+    }
+  },
+  {
+    "id": "nus",
+    "name": "NUS",
+    "name_zh": "新加坡国立大学",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 8,
+    "selectivity": 80,
+    "weights": {
+      "gpa_weight": 0.30,
+      "tests_weight": 0.25,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.10,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "ucl",
+    "name": "UCL",
+    "name_zh": "伦敦大学学院",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 9,
+    "selectivity": 75,
+    "weights": {
+      "gpa_weight": 0.30,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.15,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "caltech",
+    "name": "Caltech",
+    "name_zh": "加州理工学院",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 10,
+    "selectivity": 92,
+    "weights": {
+      "gpa_weight": 0.30,
+      "tests_weight": 0.25,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.10,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    },
+    "special_rules": {
+      "research_bonus": 0.25
+    }
+  },
+  {
+    "id": "hku",
+    "name": "The University of Hong Kong",
+    "name_zh": "香港大学",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 11,
+    "selectivity": 75,
+    "weights": {
+      "gpa_weight": 0.30,
+      "tests_weight": 0.25,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.10,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "ntu",
+    "name": "NTU Singapore",
+    "name_zh": "南洋理工大学",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 12,
+    "selectivity": 75,
+    "weights": {
+      "gpa_weight": 0.30,
+      "tests_weight": 0.25,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.10,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "uchicago",
+    "name": "University of Chicago",
+    "name_zh": "芝加哥大学",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 13,
+    "selectivity": 88,
+    "weights": {
+      "gpa_weight": 0.25,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.20,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "peking",
+    "name": "Peking University",
+    "name_zh": "北京大学",
+    "group_tags": ["清北", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 14,
+    "selectivity": 90,
+    "weights": {
+      "gpa_weight": 0.35,
+      "tests_weight": 0.30,
+      "extracurricular_weight": 0.15,
+      "essays_weight": 0.10,
+      "rec_weight": 0.05,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "upenn",
+    "name": "University of Pennsylvania",
+    "name_zh": "宾夕法尼亚大学",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 15,
+    "selectivity": 85,
+    "weights": {
+      "gpa_weight": 0.25,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.15,
+      "rec_weight": 0.10,
+      "interview_weight": 0.05,
+      "fit_weight": 0.05
+    }
+  },
+  {
+    "id": "cornell",
+    "name": "Cornell",
+    "name_zh": "康奈尔大学",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 16,
+    "selectivity": 82,
+    "weights": {
+      "gpa_weight": 0.25,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.15,
+      "rec_weight": 0.10,
+      "interview_weight": 0.05,
+      "fit_weight": 0.05
+    }
+  },
+  {
+    "id": "tsinghua",
+    "name": "Tsinghua",
+    "name_zh": "清华大学",
+    "group_tags": ["清北", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 17,
+    "selectivity": 90,
+    "weights": {
+      "gpa_weight": 0.35,
+      "tests_weight": 0.30,
+      "extracurricular_weight": 0.15,
+      "essays_weight": 0.10,
+      "rec_weight": 0.05,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "berkeley",
+    "name": "UC Berkeley",
+    "name_zh": "加州大学伯克利分校",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 17,
+    "selectivity": 80,
+    "weights": {
+      "gpa_weight": 0.30,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.25,
+      "essays_weight": 0.15,
+      "rec_weight": 0.05,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "yale",
+    "name": "Yale",
+    "name_zh": "耶鲁大学",
+    "group_tags": ["HYPSM", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 21,
+    "selectivity": 95,
+    "weights": {
+      "gpa_weight": 0.20,
+      "tests_weight": 0.15,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.25,
+      "rec_weight": 0.15,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "princeton",
+    "name": "Princeton",
+    "name_zh": "普林斯顿大学",
+    "group_tags": ["HYPSM", "QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 25,
+    "selectivity": 95,
+    "weights": {
+      "gpa_weight": 0.25,
+      "tests_weight": 0.20,
+      "extracurricular_weight": 0.20,
+      "essays_weight": 0.20,
+      "rec_weight": 0.10,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  },
+  {
+    "id": "fudan",
+    "name": "Fudan University",
+    "name_zh": "复旦大学",
+    "group_tags": ["QS30"],
+    "ranking_year": 2026,
+    "qs_ranking": 30,
+    "selectivity": 85,
+    "weights": {
+      "gpa_weight": 0.35,
+      "tests_weight": 0.30,
+      "extracurricular_weight": 0.15,
+      "essays_weight": 0.10,
+      "rec_weight": 0.05,
+      "interview_weight": 0.03,
+      "fit_weight": 0.02
+    }
+  }
+]

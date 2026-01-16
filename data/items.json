@@ -1,0 +1,142 @@
+[
+  {
+    "id": "item_looks_1",
+    "name": "护肤套装",
+    "name_zh": "护肤套装",
+    "type": "looks",
+    "effect": {
+      "attribute": "looks",
+      "value": 5
+    },
+    "cost": {
+      "coins": 500
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "item_looks_2",
+    "name": "形象顾问",
+    "name_zh": "形象顾问",
+    "type": "looks",
+    "effect": {
+      "attribute": "looks",
+      "value": 10
+    },
+    "cost": {
+      "coins": 2000
+    },
+    "rarity": "rare"
+  },
+  {
+    "id": "item_iq_1",
+    "name": "题库练习",
+    "name_zh": "题库练习",
+    "type": "iq",
+    "effect": {
+      "attribute": "iq",
+      "value": 3
+    },
+    "cost": {
+      "coins": 800
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "item_iq_2",
+    "name": "竞赛集训",
+    "name_zh": "竞赛集训",
+    "type": "iq",
+    "effect": {
+      "attribute": "iq",
+      "value": 8
+    },
+    "cost": {
+      "coins": 3000
+    },
+    "rarity": "rare"
+  },
+  {
+    "id": "item_iq_3",
+    "name": "名师课程",
+    "name_zh": "名师课程",
+    "type": "iq",
+    "effect": {
+      "attribute": "iq",
+      "value": 15
+    },
+    "cost": {
+      "gems": 50
+    },
+    "rarity": "epic"
+  },
+  {
+    "id": "item_eq_1",
+    "name": "演讲训练",
+    "name_zh": "演讲训练",
+    "type": "eq",
+    "effect": {
+      "attribute": "eq",
+      "value": 5
+    },
+    "cost": {
+      "coins": 600
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "item_eq_2",
+    "name": "社交训练",
+    "name_zh": "社交训练",
+    "type": "eq",
+    "effect": {
+      "attribute": "eq",
+      "value": 10
+    },
+    "cost": {
+      "coins": 2500
+    },
+    "rarity": "rare"
+  },
+  {
+    "id": "item_essay_1",
+    "name": "写作课程",
+    "name_zh": "写作课程",
+    "type": "essay",
+    "effect": {
+      "attribute": "essay_quality",
+      "value": 10
+    },
+    "cost": {
+      "coins": 1000
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "item_essay_2",
+    "name": "文书润色券",
+    "name_zh": "文书润色券",
+    "type": "essay",
+    "effect": {
+      "attribute": "essay_quality",
+      "value": 20
+    },
+    "cost": {
+      "coins": 3000
+    },
+    "rarity": "rare"
+  },
+  {
+    "id": "item_rec_1",
+    "name": "导师好感度礼物",
+    "name_zh": "导师好感度礼物",
+    "type": "recommendation",
+    "effect": {
+      "attribute": "recommendation_strength",
+      "value": 15
+    },
+    "cost": {
+      "coins": 2000
+    },
+    "rarity": "rare"
+  }
+]

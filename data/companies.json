@@ -1,0 +1,182 @@
+[
+  {
+    "id": "meta",
+    "name": "Meta",
+    "name_zh": "Meta",
+    "resume_bar": 85,
+    "oa_bar": 80,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.3
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "name_zh": "苹果",
+    "resume_bar": 88,
+    "oa_bar": 75,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.3
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "name_zh": "亚马逊",
+    "resume_bar": 80,
+    "oa_bar": 85,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.2
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "name_zh": "奈飞",
+    "resume_bar": 90,
+    "oa_bar": 85,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.3
+  },
+  {
+    "id": "google",
+    "name": "Alphabet (Google)",
+    "name_zh": "谷歌",
+    "resume_bar": 90,
+    "oa_bar": 88,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.4
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "name_zh": "微软",
+    "resume_bar": 85,
+    "oa_bar": 80,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.3
+  },
+  {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "name_zh": "英伟达",
+    "resume_bar": 88,
+    "oa_bar": 85,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.3
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "name_zh": "特斯拉",
+    "resume_bar": 85,
+    "oa_bar": 80,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.2
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "name_zh": "字节跳动",
+    "resume_bar": 82,
+    "oa_bar": 85,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.2
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent",
+    "name_zh": "腾讯",
+    "resume_bar": 80,
+    "oa_bar": 82,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.1
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "name_zh": "阿里巴巴",
+    "resume_bar": 80,
+    "oa_bar": 82,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.1
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "name_zh": "OpenAI",
+    "resume_bar": 92,
+    "oa_bar": 90,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.4
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "name_zh": "Anthropic",
+    "resume_bar": 90,
+    "oa_bar": 88,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.3
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "name_zh": "Salesforce",
+    "resume_bar": 80,
+    "oa_bar": 75,
+    "interview_style": "balanced",
+    "brand_multiplier": 1.1
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "name_zh": "甲骨文",
+    "resume_bar": 78,
+    "oa_bar": 75,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.1
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "name_zh": "IBM",
+    "resume_bar": 75,
+    "oa_bar": 70,
+    "interview_style": "balanced",
+    "brand_multiplier": 1.0
+  },
+  {
+    "id": "adobe",
+    "name": "Adobe",
+    "name_zh": "Adobe",
+    "resume_bar": 82,
+    "oa_bar": 78,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.2
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "name_zh": "优步",
+    "resume_bar": 85,
+    "oa_bar": 82,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.2
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "name_zh": "爱彼迎",
+    "resume_bar": 85,
+    "oa_bar": 80,
+    "interview_style": "balanced",
+    "brand_multiplier": 1.2
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "name_zh": "Stripe",
+    "resume_bar": 88,
+    "oa_bar": 85,
+    "interview_style": "tech-heavy",
+    "brand_multiplier": 1.3
+  }
+]
