@@ -1,34 +1,34 @@
-# 鸡娃 - 教育养成游戏
+# Offer — Education Tycoon Game
 
-一个网页游戏，玩家可以领养和培养孩子，从中学开始一路卷到名校 offer、研究生/博士、再到顶尖公司 offer。
+A web-based simulation game where players adopt and raise children, guiding them from middle school through elite university admissions, graduate studies, and top-tier company offers.
 
-## 技术栈
+## Tech Stack
 
 - **Frontend**: Next.js 14 + React + TypeScript
 - **State Management**: Zustand
-- **Storage**: LocalStorage (通过 Zustand persist)
+- **Storage**: LocalStorage (via Zustand persist)
 - **Styling**: Tailwind CSS
-- **Data**: JSON 数据文件（可热更新）
+- **Data**: JSON data files (hot-reloadable)
 
-## 项目结构
+## Project Structure
 
 ```
 offer/
-├── app/                    # Next.js App Router 页面
-│   ├── page.tsx           # 首页
-│   ├── adopt/             # 领养中心
-│   └── child/[id]/        # 孩子详情页
-├── lib/                    # 核心游戏引擎
-│   ├── engine.ts          # 回合推进、事件触发、升级成本计算
-│   ├── gacha.ts           # 抽奖系统
-│   ├── admissions.ts      # 申请系统（大学/研究生）
-│   ├── career.ts          # 求职系统
-│   └── economy.ts         # 经济系统
-├── store/                  # 状态管理
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Home page
+│   ├── adopt/             # Adoption center
+│   └── child/[id]/        # Child detail page
+├── lib/                    # Core game engine
+│   ├── engine.ts          # Turn progression, event triggers, upgrade cost calculation
+│   ├── gacha.ts           # Gacha system
+│   ├── admissions.ts      # Application system (university/graduate)
+│   ├── career.ts          # Job application system
+│   └── economy.ts         # Economy system
+├── store/                  # State management
 │   └── gameStore.ts       # Zustand store
-├── types/                  # TypeScript 类型定义
+├── types/                  # TypeScript type definitions
 │   └── index.ts
-└── data/                   # JSON 数据文件
+└── data/                   # JSON data files
     ├── mbti.json
     ├── races.json
     ├── nationalities.json
@@ -38,61 +38,61 @@ offer/
     └── companies.json
 ```
 
-## 核心功能
+## Core Features
 
-### 已完成（Milestone 1 部分）
+### Completed (Milestone 1 — Partial)
 
-- ✅ 数据模型定义（Child/Item/University/Company/Event）
-- ✅ MBTI/国籍/种族/个性数据文件（JSON）
-- ✅ 领养系统 + 孩子详情页
-- ✅ 基础游戏引擎（Engine、Gacha、Admissions、Career、Economy）
-- ✅ 状态管理（Zustand）+ 本地存储
-- ✅ 基础页面结构（首页、领养中心、孩子详情页）
+- ✅ Data model definitions (Child/Item/University/Company/Event)
+- ✅ MBTI / nationality / race / personality data files (JSON)
+- ✅ Adoption system + child detail page
+- ✅ Core game engine (Engine, Gacha, Admissions, Career, Economy)
+- ✅ State management (Zustand) + local storage
+- ✅ Base page structure (Home, Adoption Center, Child Detail)
 
-### 待完成
+### To Do
 
-- [ ] 回合推进系统
-- [ ] 基础道具（10个）+ 商店页面
-- [ ] 大学申请简化版：投递 5 所→出结果
-- [ ] 完整的申请中心页面
-- [ ] 求职中心页面
-- [ ] 抽奖页面
-- [ ] 商店页面
+- [ ] Turn progression system
+- [ ] Basic items (10) + shop page
+- [ ] Simplified university application: submit 5 → receive results
+- [ ] Full application center page
+- [ ] Career center page
+- [ ] Gacha page
+- [ ] Shop page
 
-## 安装和运行
+## Installation & Run
 
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
 
-# 开发模式
+# Development mode
 npm run dev
 
-# 构建
+# Build
 npm run build
 
-# 生产模式
+# Production mode
 npm start
 ```
 
-## 游戏玩法
+## Gameplay
 
-1. **领养孩子**: 在领养中心花费 1000 金币领养一个孩子
-2. **培养属性**: 通过升级提升孩子的智商、情商、颜值等属性
-3. **申请大学**: 准备申请材料，投递大学申请
-4. **申请研究生**: 本科毕业后申请研究生/博士
-5. **求职**: 毕业后申请顶尖公司的工作
+1. **Adopt a Child**: Spend 1,000 coins at the Adoption Center
+2. **Level Up Stats**: Upgrade your child's IQ, EQ, appearance, and more
+3. **Apply to Universities**: Prepare applications and submit to schools
+4. **Apply for Graduate Studies**: After undergraduate, apply for master's/PhD programs
+5. **Job Hunt**: After graduation, apply to top companies
 
-## 数据驱动
+## Data-Driven
 
-所有游戏数据都存储在 `data/*.json` 文件中，可以随时修改和更新，无需修改代码。
+All game data is stored in `data/*.json` files and can be modified at any time without code changes.
 
-## 合规说明
+## Disclaimer
 
-- ⚠️ 本游戏仅为娱乐模拟，不代表真实录取/招聘结果
-- 种族/国籍仅为游戏设定，允许玩家自定义标签
-- 不宣称"真实录取率/真实招聘概率"
+- ⚠️ This game is for entertainment purposes only and does not reflect real admissions or hiring outcomes
+- Race/nationality attributes are purely fictional game mechanics; players can customize labels
+- No claims are made about real acceptance rates or hiring probabilities
 
-## 开发计划
+## Development Roadmap
 
-详见 `task.md` 文件中的里程碑规划。
+See `task.md` for the full milestone plan.
